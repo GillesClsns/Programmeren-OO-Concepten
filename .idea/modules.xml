@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/BMI-V2/BMI-V2.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/BMI-V2/BMI-V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Middelste/Middelste.iml" filepath="$PROJECT_DIR$/Middelste/Middelste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programmeren-OO-Concepten.iml" filepath="$PROJECT_DIR$/Programmeren-OO-Concepten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Reeksen/Reeksen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Reeksen/Reeksen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Sommeren/Sommeren.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Sommeren/Sommeren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/StartToRun/StartToRun.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/StartToRun/StartToRun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" />
+    </modules>
+  </component>
+</project>
