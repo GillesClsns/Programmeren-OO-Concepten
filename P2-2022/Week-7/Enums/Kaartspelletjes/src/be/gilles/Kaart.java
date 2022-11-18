@@ -13,7 +13,6 @@ public class Kaart {
         this.kaartwaarde = kaartwaarde;
     }
 
-
     public Kaart() {
         int i = new Random().nextInt(Kaartkleur.values().length);
         this.kaartkleur = Kaartkleur.values()[i];

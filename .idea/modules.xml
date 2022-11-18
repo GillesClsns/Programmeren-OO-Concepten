@@ -9,11 +9,13 @@
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Belasting/Belasting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Belasting/Belasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Kaartspelletjes/Kaartspelletjes.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Kaartspelletjes/Kaartspelletjes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Enums/Kaartspelletjes/Kaartspelletjes.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Enums/Kaartspelletjes/Kaartspelletjes.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Kassa/Kassa.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Kassa/Kassa.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Leeftijd-2/Leeftijd-2.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Leeftijd-2/Leeftijd-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Middelste/Middelste.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Middelste/Middelste.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmeren-OO-Concepten.iml" filepath="$PROJECT_DIR$/Programmeren-OO-Concepten.iml" />
@@ -24,6 +26,10 @@
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Unicode/Unicode.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Unicode/Unicode.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Verbruik/Verbruik.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Verbruik/Verbruik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot2/chatbot2.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot2/chatbot2.iml" />
     </modules>
   </component>
 </project>
