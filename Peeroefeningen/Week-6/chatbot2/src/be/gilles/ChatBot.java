@@ -10,6 +10,12 @@ public class ChatBot {
     private final Random random;
     private final String[] antwoorden;
 
+    private final String[] keywords = {
+            "aanloggen", "traag", "scherm", "hangt", "kleuren", "trager", "geluid",
+            "vooruit", "niet", "gisteren", "weekend", "geen idee", "oplossing",
+            "geen", "zeker"
+    };
+
     public ChatBot(String naam) {
         this.naam = naam;
         random = new Random();
