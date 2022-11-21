@@ -3,13 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/ASCII-tabel/ASCII-tabel.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/ASCII-tabel/ASCII-tabel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/Autobelasting/Autobelasting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/Autobelasting/Autobelasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Autocorrect/Autocorrect.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Autocorrect/Autocorrect.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/BMI-V2/BMI-V2.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/BMI-V2/BMI-V2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-5/Bank/Bank.iml" filepath="$PROJECT_DIR$/P1-2022/Week-5/Bank/Bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Begroeting/Begroeting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Belasting/Belasting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Belasting/Belasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/BelastingenRevisited/BelastingenRevisited.iml" filepath="$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/BelastingenRevisited/BelastingenRevisited.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-5/Bibliotheek/Bibliotheek.iml" filepath="$PROJECT_DIR$/P1-2022/Week-5/Bibliotheek/Bibliotheek.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Operatoren/Codering/Codering.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Operatoren/Codering/Codering.iml" />

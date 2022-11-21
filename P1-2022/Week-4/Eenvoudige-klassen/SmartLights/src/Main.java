@@ -36,6 +36,12 @@ public class Main {
 
         }
 
+        System.out.printf("""
+                - Lamp in de living: %s
+                - Lamp in de keuken: %s
+                - Lamp in de slaapkamer: %s""",
+                livingLamp.isToggleState(), keukenLamp.isToggleState(), slaapkamerLamp.isToggleState());
+
     }
 
 }

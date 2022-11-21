@@ -8,8 +8,8 @@ public class Lamp {
         this.state = false;
     }
 
-    public Boolean getState() {
-        return state;
+    public String isToggleState() {
+        return state ? "aan" : "uit";
     }
 
     public void aan() {
@@ -31,15 +31,6 @@ public class Lamp {
                 3  Living en keuken aan (slaapkamer gaat uit)
                 4  Slaapkamer aan (living en keuken gaan uit)
                 Jouw keuze:\s""");
-
-    }
-
-    public static void printStatus() {
-
-        System.out.printf("""
-                - Lamp in de living: %s
-                - Lamp in de keuken: %s
-                - Lamp in de slaapkamer: %s""");
     }
 
 }
