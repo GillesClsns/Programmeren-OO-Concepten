@@ -20,7 +20,7 @@ public class Main {
 
         double discount = payees >= 10
                 ? price * 0.1 : senior == 2 && child > 0 || baby > 0
-                ? (child * 26) / 2 : 0;
+                ? (child * 26.0) / 2 : 0;
 
         System.out.printf("""
                 *******************************

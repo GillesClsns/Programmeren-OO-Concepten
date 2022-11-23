@@ -23,7 +23,7 @@ public class Main {
                 }
 
                 case 2 -> {
-                    double btw = amount * (percentage / 100);
+                    double btw = amount * (percentage / 100.0);
                     System.out.printf("€%.1f + %.1f%% BTW = €%.1f", amount, (double) percentage, amount + btw);
                 }
 

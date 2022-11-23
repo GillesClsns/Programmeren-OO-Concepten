@@ -4,16 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
         double intensity = 0;
 
-        System.out.println("Deze applicatie berekent je ideale trainingshartslag " +
-                "aan de hand van de formule van Karvonen.");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Deze applicatie berekent je ideale trainingshartslag aan de hand van de formule van Karvonen.");
 
         System.out.print("Geef je leeftijd: ");
         int userAge = sc.nextInt();
         System.out.print("Geef je hartslag in rust: ");
         int hrRest = sc.nextInt();
+
         int hrMax = Math.abs(userAge - 220);
 
         System.out.print("""
@@ -27,12 +28,14 @@ public class Main {
                 Maak je keuze:\s""");
 
         switch (sc.nextInt()) {
+
             case 1 -> intensity = 65;
             case 2 -> intensity = 70;
             case 3 -> intensity = 75;
             case 4 -> intensity = 85;
             case 5 -> intensity = 90;
             case 6 -> intensity = 95;
+
         }
 
         double hrIdeal = hrRest + (hrMax - hrRest) * (intensity / 100);

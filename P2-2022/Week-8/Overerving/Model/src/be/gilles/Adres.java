@@ -2,25 +2,33 @@ package be.gilles;
 
 public class Adres {
 
-    private final String straatNr;
-    private final int postnummer;
+    private String straatNr;
+    private int postNummer;
 
-    public Adres(String straatNr, int postnummer) {
+    public Adres(String straatNr, int postNummer) {
         this.straatNr = straatNr;
-        this.postnummer = postnummer;
+        this.postNummer = postNummer;
     }
 
     public String getStraatNr() {
         return straatNr;
     }
 
-    public int getPostnummer() {
-        return postnummer;
+    public int getPostNummer() {
+        return postNummer;
+    }
+
+    public void setStraatNr(String straatNr) {
+        this.straatNr = straatNr;
+    }
+
+    public void setPostNummer(int postNummer) {
+        this.postNummer = postNummer;
     }
 
     @Override
     public String toString() {
-        return String.format("%s, %d", this.straatNr, this.postnummer);
+        return String.format("Adres: %s, %d", straatNr, postNummer);
     }
 
 }

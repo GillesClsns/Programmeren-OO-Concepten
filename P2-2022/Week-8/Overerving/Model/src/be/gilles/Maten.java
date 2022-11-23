@@ -6,13 +6,13 @@ public class Maten {
     private final int heupomtrek;
     private final int taille;
 
-    public Maten(int borstomtrek, int heupomtrek, int taille) {
+    Maten(int borstomtrek, int heupomtrek, int taille) {
         this.borstomtrek = borstomtrek;
         this.heupomtrek = heupomtrek;
         this.taille = taille;
     }
 
-    public Maten() {
+    Maten() {
         this.borstomtrek = 90;
         this.heupomtrek = 60;
         this.taille = 90;
@@ -32,7 +32,7 @@ public class Maten {
 
     @Override
     public String toString() {
-        return String.format("%d %d %d", this.borstomtrek, this.heupomtrek, this.taille);
+        return String.format("Maten: %d %d %d", borstomtrek, heupomtrek, taille);
     }
 
 }

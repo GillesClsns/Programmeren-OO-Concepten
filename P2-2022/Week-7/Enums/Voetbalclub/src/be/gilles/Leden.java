@@ -6,6 +6,7 @@ public class Leden {
 
     private final ArrayList<Lid> leden = new ArrayList<>();
     private int aantal;
+    private Soort soort;
 
     public Leden() {
         this.aantal = 0;
@@ -27,12 +28,16 @@ public class Leden {
         if (getLid().soort() != Soort.STEUNEND) {
             actieveLeden++;
         }
-        return actieveLeden -1;
+        return actieveLeden;
+    }
+
+    public Soort getSoort() {
+        return soort;
     }
 
     public void printActieveLeden() {
 
-        leden.forEach(System.out::println);
+        leden .forEach(System.out::println);
         System.out.print(getAantal());
     }
 

@@ -13,9 +13,8 @@ public class Main {
         System.out.print("Met welke waarde wil je verhogen? ");
         int stepCount = sc.nextInt();
 
-        for (int i = 0; i < printAmount; i++) {
-            System.out.printf("%d ", startAmount);
-            startAmount += stepCount;
+        for (int i = 0, j = startAmount; i < printAmount; i++, j += stepCount) {
+            System.out.printf("%d ", j);
         }
 
     }

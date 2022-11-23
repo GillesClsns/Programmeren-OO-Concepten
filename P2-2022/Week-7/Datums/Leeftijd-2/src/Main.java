@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Period;
@@ -9,12 +12,9 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Geef je geboortedag: ");
-        int day = sc.nextInt();
-        System.out.print("Geef je geboortemaand: ");
-        int month = sc.nextInt();
-        System.out.print("Geef je geboortejaar: ");
-        int year = sc.nextInt();
+        int day = Integer.parseInt(JOptionPane.showInputDialog("Geef je geboortedag: "));
+        int month = Integer.parseInt(JOptionPane.showInputDialog("Geef je geboortemaand: "));
+        int year = Integer.parseInt(JOptionPane.showInputDialog("Geef je geboortejaar: "));
 
         LocalDate birthYear = LocalDate.of(year, month, day);
         DayOfWeek dayOfBirth = LocalDate.of(year, month, day).getDayOfWeek();
@@ -23,7 +23,8 @@ public class Main {
         month = Period.between(LocalDate.now(), birthYear).getMonths();
         day = Period.between(LocalDate.now(), birthYear).getDays();
 
-        System.out.printf("Je bent nu %d jaren %d maanden en %d dagen oud.\nJe bent geboren op een %s.", Math.abs(year), Math.abs(month), Math.abs(day), dayOfBirth.toString().toLowerCase());
+        JOptionPane.showMessageDialog(null, String.format("Je bent nu %d jaren %d maanden en %d dagen oud.\nJe bent geboren op een %s.",
+                Math.abs(year), Math.abs(month), Math.abs(day), dayOfBirth.toString().toLowerCase()));
 
     }
 
