@@ -7,4 +7,5 @@ public enum Kaartkleur {
     public String toString() {
         return name().toLowerCase();
     }
+
 }

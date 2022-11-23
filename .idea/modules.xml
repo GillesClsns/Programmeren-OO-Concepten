@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/ASCII-tabel/ASCII-tabel.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/ASCII-tabel/ASCII-tabel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Enums/Aardrijskunde/Aardrijskunde.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Enums/Aardrijskunde/Aardrijskunde.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/Autobelasting/Autobelasting.iml" filepath="$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/Autobelasting/Autobelasting.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Autocorrect/Autocorrect.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Autocorrect/Autocorrect.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/BMI/BMI.iml" />
@@ -24,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Leeftijd/Leeftijd.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Leeftijd-2/Leeftijd-2.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Leeftijd-2/Leeftijd-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Middelste/Middelste.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Middelste/Middelste.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-8/Overerving/Model/Model.iml" filepath="$PROJECT_DIR$/P2-2022/Week-8/Overerving/Model/Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Product/Product.iml" />
       <module fileurl="file://$PROJECT_DIR$/Programmeren-OO-Concepten.iml" filepath="$PROJECT_DIR$/Programmeren-OO-Concepten.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Ramadan/Ramadan.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Ramadan/Ramadan.iml" />
@@ -38,6 +40,7 @@
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Eenvoudige-algoritmes/Vakantie/Vakantie.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Verbruik/Verbruik.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Verbruik/Verbruik.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Vervaldatums/Vervaldatums.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Vervaldatums/Vervaldatums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Enums/Voetbalclub/Voetbalclub.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Enums/Voetbalclub/Voetbalclub.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" />
       <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" />

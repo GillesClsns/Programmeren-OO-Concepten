@@ -1,20 +1,19 @@
 package be.gilles;
 
-import java.util.Random;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Kaart kaart1 = new Kaart();
-        Kaart kaart2 = new Kaart();
-        Kaart kaart3 = new Kaart();
-        Kaart kaart4 = new Kaart();
-        Kaart kaart5 = new Kaart();
+        ArrayList<Kaart> kaarten = new ArrayList<>();
 
+        for (int i = 0; i < 5; i++) {
 
-        System.out.println(kaart1);
-        System.out.println(kaart2);
+            kaarten.add(new Kaart());
+            System.out.print(kaarten.get(i));
+
+        }
 
     }
 

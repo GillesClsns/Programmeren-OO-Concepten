@@ -30,6 +30,7 @@ public class Kaart {
 
     @Override
     public String toString() {
-        return String.format("%s %s (%d)", kaartkleur, kaartkleur, kaartwaarde.value);
+        return String.format("%s %s (%d)\n", kaartkleur, kaartkleur, kaartwaarde.value);
     }
+
 }
