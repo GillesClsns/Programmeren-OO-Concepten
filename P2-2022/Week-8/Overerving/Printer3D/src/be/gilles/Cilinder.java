@@ -1,12 +1,16 @@
+package be.gilles;
+
 public class Cilinder extends PrimitiefObject {
 
     private final double straal;
     private final double hoogte;
 
     public Cilinder(double getX, double getY, double getZ, double straal, double hoogte) {
+
         super(getX, getY, getZ);
         this.straal = straal;
         this.hoogte = hoogte;
+
     }
 
     public double getStraal() {

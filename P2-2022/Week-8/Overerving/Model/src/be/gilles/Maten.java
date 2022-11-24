@@ -6,7 +6,7 @@ public class Maten {
     private final int heupomtrek;
     private final int taille;
 
-    Maten(int borstomtrek, int heupomtrek, int taille) {
+    public Maten(int borstomtrek, int heupomtrek, int taille) {
         this.borstomtrek = borstomtrek;
         this.heupomtrek = heupomtrek;
         this.taille = taille;

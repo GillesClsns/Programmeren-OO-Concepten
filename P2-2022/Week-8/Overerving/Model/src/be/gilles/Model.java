@@ -27,17 +27,25 @@ public class Model extends Persoon {
         return maten.getTaille();
     }
 
-    public void setAdres(String straatNr, int postNr) {
-        adres.setStraatNr(straatNr);
-        adres.setPostNummer(postNr);
+    public void setAdres(Adres adres) {
+    }
+
+    public Adres getAdres() {
+        return adres;
+    }
+
+    public Maten getMaten() {
+        return maten;
     }
 
     @Override
     public String toString() {
-        return "Model{" +
-                "maten=" + maten +
-                ", adres=" + adres +
-                '}';
+        return String.format("""
+                Naam: %s
+                Adres: %s
+                Maten: %s
+                """, getNaam(), this.adres != null ? getAdres() : "adres onbekend", getMaten());
     }
+
 
 }

@@ -1,4 +1,6 @@
-public class Bol extends  PrimitiefObject {
+package be.gilles;
+
+public class Bol extends PrimitiefObject {
 
     private final double straal;
 

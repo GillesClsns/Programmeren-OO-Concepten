@@ -6,8 +6,17 @@ public class Adres {
     private int postNummer;
 
     public Adres(String straatNr, int postNummer) {
+
         this.straatNr = straatNr;
         this.postNummer = postNummer;
+
+    }
+
+    public void setAdres(String straatNr, int postNummer) {
+
+        this.straatNr = straatNr;
+        this.postNummer = postNummer;
+
     }
 
     public String getStraatNr() {
@@ -18,17 +27,12 @@ public class Adres {
         return postNummer;
     }
 
-    public void setStraatNr(String straatNr) {
-        this.straatNr = straatNr;
-    }
-
-    public void setPostNummer(int postNummer) {
-        this.postNummer = postNummer;
-    }
-
     @Override
     public String toString() {
-        return String.format("Adres: %s, %d", straatNr, postNummer);
+
+        if(straatNr.isEmpty()) return "Adres onbekend";
+        else return String.format("Adres: %s, %d", straatNr, postNummer);
+
     }
 
 }

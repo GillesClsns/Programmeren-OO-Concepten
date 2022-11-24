@@ -1,3 +1,5 @@
+package be.gilles;
+
 import java.util.ArrayList;
 
 public class PrimitiefObject {

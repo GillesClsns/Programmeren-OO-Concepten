@@ -6,8 +6,10 @@ public class Contact {
     private final ContactGegevens contactGegevens;
 
     public Contact(String naam, ContactGegevens contactGegevens) {
+
         this.naam = naam;
         this.contactGegevens = contactGegevens;
+
     }
 
     public String getNaam() {
@@ -18,8 +20,5 @@ public class Contact {
         return contactGegevens;
     }
 
-    @Override
-    public String toString() {
-        return String.format("%s %s", naam, contactGegevens);
-    }
+
 }

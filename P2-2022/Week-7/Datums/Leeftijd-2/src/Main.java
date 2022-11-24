@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.Period;
