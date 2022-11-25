@@ -37,7 +37,7 @@ public class Leden {
 
     public void printActieveLeden() {
 
-        leden .forEach(System.out::println);
+        leden.forEach(System.out::println);
         System.out.print(getAantal());
     }
 

@@ -15,10 +15,12 @@
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Bewerkingen/Bewerkingen.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-5/Bibliotheek/Bibliotheek.iml" filepath="$PROJECT_DIR$/P1-2022/Week-5/Bibliotheek/Bibliotheek.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Bioritme/Bioritme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-8/Polymorfisme/Boerderij/Boerderij.iml" filepath="$PROJECT_DIR$/P2-2022/Week-8/Polymorfisme/Boerderij/Boerderij.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-8/Overerving/Boerderijdieren/Boerderijdieren.iml" filepath="$PROJECT_DIR$/P2-2022/Week-8/Overerving/Boerderijdieren/Boerderijdieren.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Variabelen/Calorieen/Calorieen.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-2/Operatoren/Codering/Codering.iml" filepath="$PROJECT_DIR$/P1-2022/Week-2/Operatoren/Codering/Codering.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-8/Overerving/Contacten/Contacten.iml" filepath="$PROJECT_DIR$/P2-2022/Week-8/Overerving/Contacten/Contacten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-8/Polymorfisme/ContactenLijst/ContactenLijst.iml" filepath="$PROJECT_DIR$/P2-2022/Week-8/Polymorfisme/ContactenLijst/ContactenLijst.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" filepath="$PROJECT_DIR$/P1-2022/Week-1/Iteraties-en-condities/Cowsay/Cowsay.iml" />
       <module fileurl="file://$PROJECT_DIR$/Projects/Doom/Doom.iml" filepath="$PROJECT_DIR$/Projects/Doom/Doom.iml" />
       <module fileurl="file://$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/DungeonsAndDragons/DungeonsAndDragons.iml" filepath="$PROJECT_DIR$/P1-2022/Week-4/Eenvoudige-klassen/DungeonsAndDragons/DungeonsAndDragons.iml" />
@@ -52,6 +54,7 @@
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Enums/Voetbalclub/Voetbalclub.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Enums/Voetbalclub/Voetbalclub.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Vrijdag_de_dertiende/Vrijdag_de_dertiende.iml" />
       <module fileurl="file://$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" filepath="$PROJECT_DIR$/P2-2022/Week-7/Datums/Wapenstilstand/Wapenstilstand.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-7/Wijnen/Wijnen.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-7/Wijnen/Wijnen.iml" />
       <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot1/chatbot1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot2/chatbot2.iml" filepath="$PROJECT_DIR$/Peeroefeningen/Week-6/chatbot2/chatbot2.iml" />
     </modules>

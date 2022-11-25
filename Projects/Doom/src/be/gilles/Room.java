@@ -28,7 +28,8 @@ public class Room {
     public void createFloorplan() {
 
         for (int i = 0; i < WIDTH; i++) {
-            floorPlan[0][i] = '-';
+            //floorPlan[0][i] = '-';
+            i % 2 == 0 ? floorPlan[0][i] = '-' : floorPlan[0][i] = ' ';
         }
 
         for (int i = 0; i < WIDTH; i++) {
