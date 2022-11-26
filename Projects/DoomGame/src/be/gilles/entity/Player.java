@@ -36,6 +36,10 @@ public class Player {
         return health;
     }
 
+    public void setRoom(Room room) {
+        this.room = room;
+    }
+
     public void attack(double strength) {
         this.health -= strength;
     }
@@ -65,7 +69,7 @@ public class Player {
 
     // DEBUG
     public void printPlayerCords() {
-        System.out.print(getX() + ", " + getY());
+        System.out.println(getX() + ", " + getY());
 
     }
 

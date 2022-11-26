@@ -2,8 +2,6 @@ package be.gilles.level;
 
 import be.gilles.entity.Player;
 
-import java.util.Random;
-
 public class Room {
 
     public final int WIDTH = 90;
@@ -16,6 +14,8 @@ public class Room {
 
         this.player = player;
         this.floorPlan = new char[HEIGHT][WIDTH];
+        player.setRoom(this);
+        createFloorplan();
 
     }
 
@@ -55,8 +55,6 @@ public class Room {
 
         }
 
-        this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0);
-
     }
 
     public void draw() {
@@ -80,7 +78,7 @@ public class Room {
 
         floorPlan[player.getX()][player.getY()] = ' ';
         this.player.move();
-        this.createFloorplan();
+        this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0);
 
     }
 

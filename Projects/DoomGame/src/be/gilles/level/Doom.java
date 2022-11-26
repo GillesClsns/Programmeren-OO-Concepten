@@ -5,11 +5,11 @@ import be.gilles.entity.Player;
 public class Doom {
 
     protected Room room;
+
     Player player = new Player(15, 5);
 
     public Doom() {
-        Room r = new Room(player);
-        room = r;
+        this.room = new Room(player);
     }
 
     public boolean isFinished() {
