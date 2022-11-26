@@ -11,11 +11,11 @@ public class Room {
     public final int HEIGHT = 20;
 
     public Player player;
-    public Monster[] monsters;
+    public Monster monsters;
 
     public char[][] floorPlan;
 
-    public Room(Player player, Monster[] monsters) {
+    public Room(Player player, Monster monsters) {
 
         this.player = player;
         this.monsters = monsters;
@@ -73,10 +73,10 @@ public class Room {
         }
 
         char playerIcon = player.toString().charAt(0);
-        char monsterIcon = monsters[0].toString().charAt(0);
+        char monsterIcon = monsters.toString().charAt(0);
 
         floorPlan[getPlayer().getX()][getPlayer().getY()] = playerIcon;
-        floorPlan[monsters[0].getX()][monsters[0].getY()] = monsterIcon;
+        floorPlan[monsters.getX()][monsters.getY()] = monsterIcon;
 
     }
 

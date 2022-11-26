@@ -9,10 +9,11 @@ public class Doom {
 
     private final Room room;
     private final Player player = new Player(10, 40);
+    private final Monster monster = new Monster(10,41);
 
     public Doom() {
-        room = new Room(player, new Monster[]{
-                new Monster(8, 42, new Player(10, 40))});
+        room = new Room(player, monster);
+
     }
 
     public void start() {
@@ -33,6 +34,7 @@ public class Doom {
                     System.out.println("");
                 }
 
+                monster.attack();
 
             } catch (InterruptedException e) {
 

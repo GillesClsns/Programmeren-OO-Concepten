@@ -1,14 +1,11 @@
 package be.gilles.entities;
 
-import be.gilles.level.Room;
-
 import java.util.Random;
 
 public class DoomCharacter {
 
     private int x;
     private int y;
-    private Room room;
 
     public DoomCharacter(int x, int y) {
 
@@ -25,10 +22,6 @@ public class DoomCharacter {
         return y;
     }
 
-    public void setRoom(Room room) {
-        this.room = room;
-    }
-
     public void move() {
 
         int moveX = new Random().nextInt(-1, 2);
@@ -38,6 +31,7 @@ public class DoomCharacter {
 
             this.x += moveX;
             this.y += moveY;
+
 
         }
 

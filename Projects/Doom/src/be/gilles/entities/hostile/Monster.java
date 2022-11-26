@@ -5,24 +5,27 @@ import be.gilles.entities.Player;
 
 public class Monster extends DoomCharacter {
 
-    public final int STRENTH = 1;
+    public final int STRENGTH = 1;
     protected Player player;
 
-    public Monster(int x, int y, Player player) {
+    public Monster(int x, int y) {
 
         super(x, y);
-        this.player = player;
 
     }
 
-    private Player getPlayer() {
+    public Player getPlayer() {
         return player;
     }
 
-    private void attackPlayer() {
+    public void attack() {
 
+        System.out.println(getPlayer().health);
+        /*if(getPlayer().getX() - this.getX() <= 1 || getPlayer().getY() - this.getY() <= 1) {
 
+            getPlayer().setHealth(getPlayer().getHealth() - STRENTH);
 
+        }*/
     }
 
     @Override
