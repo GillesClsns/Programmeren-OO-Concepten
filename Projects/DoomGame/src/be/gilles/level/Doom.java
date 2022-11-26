@@ -13,7 +13,7 @@ public class Doom {
     protected Room room;
     private final int AMOUNT_OF_MONSTERS = 50;
 
-    Player player = new Player(10, 5);
+    Player player = new Player(10, 45);
     ArrayList<Monster> monsters = new ArrayList<>();
 
     public Doom() {
@@ -45,8 +45,9 @@ public class Doom {
 
     protected void showInfo() {
 
-        System.out.println(ANSI_RED + "Health: " + room.getPlayer().getHealth() + ANSI_GREEN);
-        player.printPlayerCords();
+        System.out.println(ANSI_GREEN + "Health: " + room.getPlayer().getHealth() + ANSI_RESET);
+
+        //player.printPlayerCords(); For debugging purposes
 
     }
 
@@ -56,8 +57,13 @@ public class Doom {
 
             try {
 
-                Thread.sleep(500);
+                Thread.sleep(0);
                 room.update();
+
+                if (player.isDeath()) System.out.println(ANSI_RED + """
+                        I'm death!
+                        Aaarrgh....""" + ANSI_RESET);
+
                 room.draw();
                 showInfo();
 

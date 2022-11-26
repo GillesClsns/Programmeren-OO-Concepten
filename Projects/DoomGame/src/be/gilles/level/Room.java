@@ -86,10 +86,7 @@ public class Room {
         floorPlan[player.getX()][player.getY()] = ' '; // Replace old location with a space
 
         this.player.move();
-
-        System.out.print(ANSI_CYAN);
         this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0); // Move player and print character
-
 
         // Make the monsters move in the game
         for (Monster x : monsters) {
