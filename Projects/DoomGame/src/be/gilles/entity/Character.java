@@ -6,8 +6,8 @@ import java.util.Random;
 
 public class Character {
 
-    private int x;
-    private int y;
+    public int x;
+    public int y;
     protected Room room;
 
     public Character(int x, int y) {

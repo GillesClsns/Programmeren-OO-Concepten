@@ -1,7 +1,10 @@
 package be.gilles.level;
 
-import be.gilles.entity.Monster;
+import be.gilles.entity.hostile.Follower;
+import be.gilles.entity.hostile.Monster;
 import be.gilles.entity.Player;
+import be.gilles.entity.hostile.SimpleMonster;
+import be.gilles.entity.hostile.TimeBomb;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -11,29 +14,38 @@ import static be.gilles.util.Color.*;
 public class Doom {
 
     protected Room room;
-    private final int AMOUNT_OF_MONSTERS = 50;
+    private final int AMOUNT_OF_MONSTERS = 1;
 
     Player player = new Player(10, 45);
-    ArrayList<Monster> monsters = new ArrayList<>();
+    ArrayList<SimpleMonster> monsters = new ArrayList<>();
+
+    int rndX = new Random().nextInt(1, 20 - 1);
+    int rndY = new Random().nextInt(1, 90 - 1);
+    TimeBomb timeBomb = new TimeBomb(rndX, rndY, player);
+
 
     public Doom() {
 
-        // Generating monsters at random coordinates
+        // Generating SimpleMonsters at random coordinates
         for (int i = 0; i < AMOUNT_OF_MONSTERS; i++) {
 
             int rndX = new Random().nextInt(1, 20 - 1);
             int rndY = new Random().nextInt(1, 90 - 1);
 
-            monsters.add(new Monster(rndX, rndY, player));
+            monsters.add(new SimpleMonster(rndX, rndY, player));
+            monsters.add(new Follower(rndX, rndY, player));
+
 
         }
 
-        // Assigning players and monsters to their room
-        this.room = new Room(player, monsters);
-        player.setRoom(room);
 
-        for (Monster x : monsters) {
-            x.getPlayer().setRoom(room);
+        // Assigning players and monsters to their room
+        this.room = new Room(player, monsters, timeBomb);
+        player.setRoom(room);
+        timeBomb.setRoom(room);
+
+        for (SimpleMonster x : monsters) {
+            x.setRoom(room);
 
         }
 
