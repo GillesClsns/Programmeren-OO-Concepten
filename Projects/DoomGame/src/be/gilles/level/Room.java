@@ -1,6 +1,11 @@
 package be.gilles.level;
 
+import be.gilles.entity.Monster;
 import be.gilles.entity.Player;
+
+import java.util.ArrayList;
+
+import static be.gilles.util.Color.*;
 
 public class Room {
 
@@ -9,12 +14,12 @@ public class Room {
 
     protected Player player;
     protected char[][] floorPlan;
+    protected ArrayList<Monster> monsters;
 
-    public Room(Player player) {
+    public Room(Player player, ArrayList<Monster> monsters) {
 
         this.player = player;
-        this.floorPlan = new char[HEIGHT][WIDTH];
-        player.setRoom(this);
+        this.monsters = monsters;
         createFloorplan();
 
     }
@@ -24,6 +29,8 @@ public class Room {
     }
 
     protected void createFloorplan() {
+
+        this.floorPlan = new char[HEIGHT][WIDTH];
 
         // TOP
         for (int i = 0; i < WIDTH; i++) {
@@ -67,7 +74,7 @@ public class Room {
     }
 
     public boolean isFree(int x, int y) {
-        return this.floorPlan[x][y] == ' ';
+        return this.floorPlan[x][y] == ' ' && (x != 0 && x != HEIGHT - 1); // Ensures that no entity can spawn outside the gameframe.
     }
 
     public boolean isFinished() {
@@ -76,9 +83,30 @@ public class Room {
 
     public void update() {
 
-        floorPlan[player.getX()][player.getY()] = ' ';
+        floorPlan[player.getX()][player.getY()] = ' '; // Replace old location with a space
+
         this.player.move();
-        this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0);
+
+        System.out.print(ANSI_CYAN);
+        this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0); // Move player and print character
+
+
+        // Make the monsters move in the game
+        for (Monster x : monsters) {
+
+            x.setRoom(this); // Assigning the monsters to the room
+
+            this.floorPlan[x.getX()][x.getY()] = ' '; // Replace old location with  a space
+
+            x.move();
+            this.floorPlan[x.getX()][x.getY()] = x.toString().charAt(0); // Move monsters and print character
+
+        }
+
+        // Ensures that the monsters attack the players
+        for (Monster x : monsters) {
+            x.attackPlayer();
+        }
 
     }
 
