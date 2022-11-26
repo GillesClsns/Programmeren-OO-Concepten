@@ -22,6 +22,10 @@ public class Leden {
     }
 
     public int getAantal() {
+        return aantal;
+    }
+
+    public int getAantalActieveLeden() {
 
         int actieveLeden = 0;
 
@@ -37,8 +41,9 @@ public class Leden {
 
     public void printActieveLeden() {
 
-        leden.forEach(System.out::println);
-        System.out.print(getAantal());
+        for(Lid x : leden) {
+            System.out.println(getAantalActieveLeden());
+        }
     }
 
 }

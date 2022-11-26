@@ -1,4 +1,5 @@
-package be.gilles;
+import be.gilles.Leden;
+import be.gilles.Lid;
 
 import static be.gilles.Soort.*;
 
@@ -18,4 +19,5 @@ public class Main {
         leden.printActieveLeden();
 
     }
+
 }
