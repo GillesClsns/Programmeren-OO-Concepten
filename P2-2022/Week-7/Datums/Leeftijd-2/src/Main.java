@@ -21,7 +21,6 @@ public class Main {
         DayOfWeek dayOfBirth = LocalDate.of(year, month, day).getDayOfWeek();
         String dayOfWeekInDutch = dayOfBirth.getDisplayName(TextStyle.FULL, dutch);
 
-
         year = Math.abs(Period.between(LocalDate.now(), birthYear).getYears());
         month = Math.abs(Period.between(LocalDate.now(), birthYear).getMonths());
         day = Math.abs(Period.between(LocalDate.now(), birthYear).getDays());

@@ -12,7 +12,7 @@ public class Main {
              date.isBefore(LocalDate.of(2029, 12, 31));
              date = date.plusDays(1))
 
-            if (date.getDayOfWeek() == DayOfWeek.SUNDAY && date.getDayOfMonth() == 13) System.out.println(formatter.format(date));
+            if (date.getDayOfWeek() == DayOfWeek.FRIDAY && date.getDayOfMonth() == 13) System.out.println(formatter.format(date));
 
     }
 
