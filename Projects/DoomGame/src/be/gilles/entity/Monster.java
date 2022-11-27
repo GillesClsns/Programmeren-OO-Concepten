@@ -1,4 +1,4 @@
-package be.gilles.entity.hostile;
+package be.gilles.entity;
 
 import be.gilles.entity.Character;
 import be.gilles.entity.Player;

@@ -1,5 +1,6 @@
 package be.gilles.entity.hostile;
 
+import be.gilles.entity.Monster;
 import be.gilles.entity.Player;
 
 public class SimpleMonster extends Monster {

@@ -1,10 +1,7 @@
 package be.gilles.level;
 
-import be.gilles.entity.hostile.Follower;
-import be.gilles.entity.hostile.Monster;
 import be.gilles.entity.Player;
-import be.gilles.entity.hostile.SimpleMonster;
-import be.gilles.entity.hostile.TimeBomb;
+import be.gilles.entity.Monster;
 
 import java.util.ArrayList;
 
@@ -15,16 +12,13 @@ public class Room {
 
     protected Player player;
     protected char[][] floorPlan;
-    protected ArrayList<SimpleMonster> monsters;
+    protected ArrayList<Monster> monsters;
 
-    public TimeBomb timeBomb;
-
-    public Room(Player player, ArrayList<SimpleMonster> monsters, TimeBomb timeBomb) {
+    public Room(Player player, ArrayList<Monster> monsters) {
 
         this.player = player;
         this.monsters = monsters;
         createFloorplan();
-        this.timeBomb = timeBomb;
 
     }
 
@@ -93,7 +87,7 @@ public class Room {
         this.floorPlan[player.getX()][player.getY()] = player.toString().charAt(0); // Move player and print character
 
         // Make the monsters move in the game
-        for (SimpleMonster x : monsters) {
+        for (Monster x : monsters) {
 
             x.setRoom(this); // Assigning the monsters to the room
 
@@ -104,12 +98,8 @@ public class Room {
 
         }
 
-        floorPlan[timeBomb.getX()][timeBomb.getY()] = ' ';
-        this.timeBomb.move();
-        this.floorPlan[timeBomb.getX()][timeBomb.getY()] = timeBomb.toString().charAt(0); // Move player and print character
-
         // Ensures that the monsters attack the players
-        for (SimpleMonster x : monsters) {
+        for (Monster x : monsters) {
             x.attackPlayer();
 
         }

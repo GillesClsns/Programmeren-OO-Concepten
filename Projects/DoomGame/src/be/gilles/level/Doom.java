@@ -1,11 +1,16 @@
 package be.gilles.level;
 
 import be.gilles.entity.hostile.Follower;
-import be.gilles.entity.hostile.Monster;
+import be.gilles.entity.Monster;
 import be.gilles.entity.Player;
 import be.gilles.entity.hostile.SimpleMonster;
 import be.gilles.entity.hostile.TimeBomb;
+import be.gilles.entity.hostile.Zombie;
+import be.gilles.util.Menu;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -17,16 +22,13 @@ public class Doom {
     private final int AMOUNT_OF_MONSTERS = 1;
 
     Player player = new Player(10, 45);
-    ArrayList<SimpleMonster> monsters = new ArrayList<>();
-
-    int rndX = new Random().nextInt(1, 20 - 1);
-    int rndY = new Random().nextInt(1, 90 - 1);
-    TimeBomb timeBomb = new TimeBomb(rndX, rndY, player);
-
+    ArrayList<Monster> monsters = new ArrayList<>();
 
     public Doom() {
 
-        // Generating SimpleMonsters at random coordinates
+        Menu.showDefaultMenu();
+
+        // Generating entities at random coordinates
         for (int i = 0; i < AMOUNT_OF_MONSTERS; i++) {
 
             int rndX = new Random().nextInt(1, 20 - 1);
@@ -34,17 +36,16 @@ public class Doom {
 
             monsters.add(new SimpleMonster(rndX, rndY, player));
             monsters.add(new Follower(rndX, rndY, player));
-
+            monsters.add(new TimeBomb(rndX, rndY, player));
+            monsters.add(new Zombie(rndX, rndY, player));
 
         }
 
-
         // Assigning players and monsters to their room
-        this.room = new Room(player, monsters, timeBomb);
+        this.room = new Room(player, monsters);
         player.setRoom(room);
-        timeBomb.setRoom(room);
 
-        for (SimpleMonster x : monsters) {
+        for (Monster x : monsters) {
             x.setRoom(room);
 
         }
@@ -57,9 +58,20 @@ public class Doom {
 
     protected void showInfo() {
 
-        System.out.println(ANSI_GREEN + "Health: " + room.getPlayer().getHealth() + ANSI_RESET);
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("HH:mm:ss");
 
-        //player.printPlayerCords(); For debugging purposes
+        System.out.printf("""
+                        %-45s %-37s %sHealth: %s
+                        """,
+                ANSI_BLUE + LocalDate.now(),  // Current date
+                LocalTime.now().format(df), // Current time
+                ANSI_GREEN, room.getPlayer().getHealth() + ANSI_RESET); // Player health
+
+
+        for (int i = 0; i < 5; i++) {
+            System.out.println("");
+        }
+        player.printPlayerCords();
 
     }
 
@@ -69,7 +81,7 @@ public class Doom {
 
             try {
 
-                Thread.sleep(0);
+                Thread.sleep(500);
                 room.update();
 
                 if (player.isDeath()) System.out.println(ANSI_RED + """

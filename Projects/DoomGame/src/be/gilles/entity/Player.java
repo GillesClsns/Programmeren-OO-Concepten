@@ -1,13 +1,9 @@
 package be.gilles.entity;
 
-import be.gilles.level.Room;
-
 public class Player extends Character {
 
     public final double START_HEALTH;
     protected double health;
-
-    protected Room room;
 
     public Player(int x, int y) {
 
