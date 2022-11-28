@@ -27,6 +27,7 @@ public class Roomsettings extends SettingsMenu {
 
     }
 
+    // TODO: 28/11/2022 Adding colors and nice formatting
     public static void roomSizeSettings() {
 
         System.out.print("Height: ");
@@ -37,4 +38,5 @@ public class Roomsettings extends SettingsMenu {
 
 
     }
+
 }

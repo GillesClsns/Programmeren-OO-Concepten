@@ -19,13 +19,15 @@ import static be.gilles.util.Color.*;
 public class Doom {
 
     protected Room room;
-    private final int AMOUNT_OF_MONSTERS = 1;
 
     Player player = new Player(10, 45);
     ArrayList<Monster> monsters = new ArrayList<>();
 
     public Doom() {
 
+        final int AMOUNT_OF_MONSTERS = 1;
+
+        // TODO: 28/11/2022 Generate a random amount of entities per type
         // Generating entities at random coordinates
         for (int i = 0; i < AMOUNT_OF_MONSTERS; i++) {
 
@@ -64,16 +66,12 @@ public class Doom {
                 ANSI_BLUE + LocalDate.now(),  // Current date
                 LocalTime.now().format(df), // Current time
                 ANSI_GREEN, room.getPlayer().getHealth() + ANSI_RESET); // Player health
+                // TODO: 28/11/2022 Add a timer
 
-
+        // Adding whitespace between each frame
         for (int i = 0; i < 5; i++) {
             System.out.println("");
         }
-        player.printPlayerCords();
-
-    }
-
-    public void initializeEntities() {
 
     }
 

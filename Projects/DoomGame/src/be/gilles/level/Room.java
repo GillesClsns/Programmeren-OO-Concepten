@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class Room {
 
+    // Initializing the gameframe dimensions
     public int WIDTH = Roomsettings.roomWidth;
     public int HEIGHT = Roomsettings.roomHeight;
 
@@ -25,14 +26,6 @@ public class Room {
 
     public Player getPlayer() {
         return player;
-    }
-
-    public void setWIDTH(int WIDTH) {
-        this.WIDTH = WIDTH;
-    }
-
-    public void setHEIGHT(int HEIGHT) {
-        this.HEIGHT = HEIGHT;
     }
 
     protected void createFloorplan() {
