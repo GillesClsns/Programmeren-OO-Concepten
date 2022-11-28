@@ -14,18 +14,9 @@ public class Student {
 
     }
 
-    public String getNaam() {
-        return naam;
-    }
-
-    public int getNummer() {
-        return nummer;
-    }
-
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Student) {
-            Student other = (Student) obj;
+        if (obj instanceof Student other) {
             return Objects.equals(naam, other.naam) &&
                     Objects.equals(nummer, other.nummer);
         }

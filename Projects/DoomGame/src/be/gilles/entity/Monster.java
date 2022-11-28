@@ -1,8 +1,5 @@
 package be.gilles.entity;
 
-import be.gilles.entity.Character;
-import be.gilles.entity.Player;
-
 public abstract class Monster extends Character {
 
     public final int STRENGTH;

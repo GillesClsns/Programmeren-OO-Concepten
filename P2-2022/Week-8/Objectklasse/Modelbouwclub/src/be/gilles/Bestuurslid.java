@@ -11,10 +11,6 @@ public class Bestuurslid extends Lid {
         this.functie = functie;
     }
 
-    public String getFunctie() {
-        return functie;
-    }
-
     @Override
     public String toString() {
         return String.format("bestuurslid %s", getNaam());

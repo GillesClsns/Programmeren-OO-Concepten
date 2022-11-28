@@ -8,16 +8,14 @@ public class Lid {
     public final long nummer;
 
     public Lid(String naam, long nummer) {
+
         this.naam = naam;
         this.nummer = nummer;
+
     }
 
     public String getNaam() {
         return naam;
-    }
-
-    public long getNummer() {
-        return nummer;
     }
 
     @Override
