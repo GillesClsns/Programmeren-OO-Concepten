@@ -2,13 +2,14 @@ package be.gilles.level;
 
 import be.gilles.entity.Player;
 import be.gilles.entity.Monster;
+import be.gilles.menu.settings.Roomsettings;
 
 import java.util.ArrayList;
 
 public class Room {
 
-    public final int WIDTH = 90;
-    public final int HEIGHT = 20;
+    public int WIDTH = Roomsettings.roomWidth;
+    public int HEIGHT = Roomsettings.roomHeight;
 
     protected Player player;
     protected char[][] floorPlan;
@@ -24,6 +25,14 @@ public class Room {
 
     public Player getPlayer() {
         return player;
+    }
+
+    public void setWIDTH(int WIDTH) {
+        this.WIDTH = WIDTH;
+    }
+
+    public void setHEIGHT(int HEIGHT) {
+        this.HEIGHT = HEIGHT;
     }
 
     protected void createFloorplan() {

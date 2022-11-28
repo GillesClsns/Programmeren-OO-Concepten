@@ -1,6 +1,7 @@
 package be.gilles;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -19,7 +20,7 @@ public class Main {
         } else {
             System.out.println("De string werd niet gevonden");
         }
-        if (lijst.zoek(new int[] {1,2,3})) {
+        if (lijst.zoek(new int[]{1, 2, 3})) {
             System.out.println("De array werd gevonden");
         } else {
             System.out.println("De array werd niet gevonden");

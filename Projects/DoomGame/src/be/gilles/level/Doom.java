@@ -6,7 +6,7 @@ import be.gilles.entity.Player;
 import be.gilles.entity.hostile.SimpleMonster;
 import be.gilles.entity.hostile.TimeBomb;
 import be.gilles.entity.hostile.Zombie;
-import be.gilles.util.Menu;
+import be.gilles.menu.Menu;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -25,8 +25,6 @@ public class Doom {
     ArrayList<Monster> monsters = new ArrayList<>();
 
     public Doom() {
-
-        Menu.showDefaultMenu();
 
         // Generating entities at random coordinates
         for (int i = 0; i < AMOUNT_OF_MONSTERS; i++) {
@@ -72,6 +70,10 @@ public class Doom {
             System.out.println("");
         }
         player.printPlayerCords();
+
+    }
+
+    public void initializeEntities() {
 
     }
 
