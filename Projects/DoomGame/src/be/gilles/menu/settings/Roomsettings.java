@@ -1,6 +1,5 @@
 package be.gilles.menu.settings;
 
-import be.gilles.level.Room;
 import be.gilles.menu.SettingsMenu;
 
 public class Roomsettings extends SettingsMenu {

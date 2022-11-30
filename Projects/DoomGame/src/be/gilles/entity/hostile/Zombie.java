@@ -36,8 +36,8 @@ public class Zombie extends Monster {
     @Override
     public void attackPlayer() {
 
-        if (Math.abs(player.getX() - this.getX()) <= 1 && (Math.abs(player.getY() - this.getY()) <= 1))
-            player.attack(STRENGTH);
+        if (Math.abs(player.getX() - this.getX()) <= 1 && (Math.abs(player.getY() - this.getY()) <= 1) && this.status == ZombieStatus.ALIVE) player.attack(STRENGTH);
+        else System.out.println("no");
 
     }
 

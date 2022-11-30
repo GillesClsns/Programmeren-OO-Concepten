@@ -37,7 +37,7 @@ public class Doom {
             monsters.add(new SimpleMonster(rndX, rndY, player));
             monsters.add(new Follower(rndX, rndY, player));
             monsters.add(new TimeBomb(rndX, rndY, player));
-            monsters.add(new Zombie(rndX, rndY, player));
+            //monsters.add(new Zombie(rndX, rndY, player));
 
         }
 
@@ -76,6 +76,8 @@ public class Doom {
     }
 
     public void start() {
+
+        System.out.println("START");
 
         while (!isFinished()) {
 

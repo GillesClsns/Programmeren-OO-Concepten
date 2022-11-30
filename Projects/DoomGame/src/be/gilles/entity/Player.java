@@ -14,7 +14,7 @@ public class Player extends Character {
     }
 
     public double getHealth() {
-        return health;
+        return health < 0 ? 0 : health;
     }
 
     public void attack(double strength) {
