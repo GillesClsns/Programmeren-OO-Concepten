@@ -5,7 +5,7 @@ import be.gilles.interfaces.HeeftVolume;
 public class Bol extends Figuur implements HeeftVolume {
 
 
-    private double straal;
+    private final double straal;
 
     public Bol(String naam, double straal) {
 

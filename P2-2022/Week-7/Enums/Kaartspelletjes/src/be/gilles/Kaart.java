@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Kaart {
 
-    private Kaartkleur kaartkleur;
-    private Kaartwaarde kaartwaarde;
+    private final Kaartkleur kaartkleur;
+    private final Kaartwaarde kaartwaarde;
     private int totalValue;
 
     public Kaart(Kaartkleur kaartkleur, Kaartwaarde kaartwaarde) {

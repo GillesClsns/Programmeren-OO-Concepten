@@ -2,6 +2,6 @@ package be.gilles;
 
 public enum Soort {
 
-    GEWOON, STEUNEND, ERELID;
+    GEWOON, STEUNEND, ERELID
 
 }

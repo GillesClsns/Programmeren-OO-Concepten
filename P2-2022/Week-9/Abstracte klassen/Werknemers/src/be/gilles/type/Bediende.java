@@ -5,7 +5,7 @@ import be.gilles.Werknemer;
 public class Bediende extends Werknemer {
 
     private final int LOONFACTOR = 192;
-    private double weddeBarema;
+    private final double weddeBarema;
 
     public Bediende(String naam, long rijksregisternummer, double weddeBarema) {
 

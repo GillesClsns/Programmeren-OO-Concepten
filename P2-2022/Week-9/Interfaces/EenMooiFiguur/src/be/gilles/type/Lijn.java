@@ -5,7 +5,7 @@ import be.gilles.type.Figuur;
 
 public class Lijn extends Figuur implements HeeftOmtrek {
 
-    private double lengte;
+    private final double lengte;
 
     public Lijn(String naam, double lengte) {
 

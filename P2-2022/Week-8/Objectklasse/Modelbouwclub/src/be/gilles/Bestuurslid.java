@@ -18,8 +18,7 @@ public class Bestuurslid extends Lid {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Bestuurslid) {
-            Bestuurslid other = (Bestuurslid) obj;
+        if (obj instanceof Bestuurslid other) {
             return Objects.equals(naam, other.getNaam()) &&
                     Objects.equals(nummer, other.getNaam()) &&
                     Objects.equals(functie, other.functie);

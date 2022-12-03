@@ -3,8 +3,8 @@ package be.gilles;
 public abstract class Werknemer {
 
     private final double UURLOON = 12.5;
-    private String naam;
-    private long rijksregisternummer;
+    private final String naam;
+    private final long rijksregisternummer;
 
     public Werknemer(String naam, long rijksregisternummer) {
 

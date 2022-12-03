@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PrimitiefObject {
 
-    private ArrayList<Double> plaats = new ArrayList<>();
+    private final ArrayList<Double> plaats = new ArrayList<>();
 
     public PrimitiefObject(double getX, double getY, double getZ) {
 

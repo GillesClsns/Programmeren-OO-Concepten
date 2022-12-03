@@ -5,7 +5,7 @@ import be.gilles.interfaces.HeeftOppervlakte;
 
 public class Circel extends Figuur implements HeeftOmtrek, HeeftOppervlakte {
 
-    private double straal;
+    private final double straal;
 
     public Circel(String naam, double straal) {
 

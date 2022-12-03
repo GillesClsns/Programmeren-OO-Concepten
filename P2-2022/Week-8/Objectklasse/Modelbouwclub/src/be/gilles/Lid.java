@@ -25,8 +25,7 @@ public class Lid {
 
     @Override
     public boolean equals(Object obj) {
-        if (obj instanceof Lid) {
-            Lid other = (Lid) obj;
+        if (obj instanceof Lid other) {
             return Objects.equals(nummer, other.nummer);
         }
         return false;

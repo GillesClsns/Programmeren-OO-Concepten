@@ -6,8 +6,8 @@ import be.gilles.interfaces.Vliegend;
 
 public class Zwaluw extends Dier implements Eierleggend, Vliegend {
 
-    private int aantalEierenPerJaar;
-    private double maxVliegsnelheid;
+    private final int aantalEierenPerJaar;
+    private final double maxVliegsnelheid;
 
     public Zwaluw(String naam, int aantalEierenPerJaar, double maxVliegsnelheid) {
 

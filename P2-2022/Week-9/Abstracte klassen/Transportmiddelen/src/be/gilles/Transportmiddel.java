@@ -37,7 +37,7 @@ public abstract class Transportmiddel {
     }
 
     public String toString() {
-        return String.format("%s-");
+        return "%s-";
     }
 
 }

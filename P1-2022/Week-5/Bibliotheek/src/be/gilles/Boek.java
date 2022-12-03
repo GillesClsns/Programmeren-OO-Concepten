@@ -5,7 +5,7 @@ public class Boek {
     private final String auteur;
     private final String titel;
     private final int paginas;
-    private Boolean ontleend;
+    private final Boolean ontleend;
 
     public Boek(String auteur, String titel, int paginas, Boolean ontleend) {
         this.auteur = auteur;

@@ -1,6 +1,6 @@
 public abstract class Entity {
 
-    private String naam;
+    private final String naam;
     private double[] position = new double[3];
 
     public Entity(String naam, double[] position) {

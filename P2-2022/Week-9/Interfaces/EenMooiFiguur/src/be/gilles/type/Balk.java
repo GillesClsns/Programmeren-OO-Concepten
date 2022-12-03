@@ -5,7 +5,7 @@ import be.gilles.interfaces.HeeftVolume;
 public class Balk extends Figuur implements HeeftVolume {
 
     private Rechthoek basisvlak;
-    private double hoogte;
+    private final double hoogte;
 
     public Balk(String naam, double lengte, double breedte, double hoogte) {
 

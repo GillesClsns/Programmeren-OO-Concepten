@@ -2,7 +2,7 @@ package be.gilles.type;
 
 public abstract class Figuur {
 
-    private String naam;
+    private final String naam;
 
     public Figuur(String naam) {
 

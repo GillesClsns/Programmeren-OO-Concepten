@@ -2,7 +2,7 @@ package be.gilles.interfaces;
 
 public abstract class Dier {
 
-    private String naam;
+    private final String naam;
 
     public Dier(String naam) {
 

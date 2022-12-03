@@ -6,9 +6,9 @@ import be.gilles.interfaces.Vliegend;
 
 public class Arend extends Dier implements Eierleggend, Vliegend {
 
-    private int aantalEierenPerJaar;
-    private double maxVliegsnelheid;
-    private double duiksnelheid;
+    private final int aantalEierenPerJaar;
+    private final double maxVliegsnelheid;
+    private final double duiksnelheid;
 
     public Arend(String naam, int aantalEierenPerJaar, double maxVliegsnelheid, double duiksnelheid) {
 

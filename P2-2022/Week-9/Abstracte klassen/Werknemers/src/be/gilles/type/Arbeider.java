@@ -5,7 +5,7 @@ import be.gilles.Werknemer;
 public class Arbeider extends Werknemer {
 
     private final int MAX_UREN_PER_WEEK = 38;
-    private int aantalUren;
+    private final int aantalUren;
 
     public Arbeider(String naam, long rijksregisternummer, int aantalUren) {
 

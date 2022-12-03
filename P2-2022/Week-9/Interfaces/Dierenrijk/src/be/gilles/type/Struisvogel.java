@@ -5,7 +5,7 @@ import be.gilles.interfaces.Eierleggend;
 
 public class Struisvogel extends Dier implements Eierleggend {
 
-    private int aantalEierenPerJaar;
+    private final int aantalEierenPerJaar;
 
     public Struisvogel(String naam, int aantalEierenPerJaar) {
         super(naam);
