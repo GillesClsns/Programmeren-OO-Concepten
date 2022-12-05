@@ -1,3 +1,5 @@
+package be.gilles.entity;
+
 import be.gilles.interfaces.Visible;
 
 public class Room extends Entity implements Visible {
@@ -10,7 +12,7 @@ public class Room extends Entity implements Visible {
 
     @Override
     public void draw() {
-        super.toString();
+        System.out.println("Room: " + super.toString());
     }
 
 }

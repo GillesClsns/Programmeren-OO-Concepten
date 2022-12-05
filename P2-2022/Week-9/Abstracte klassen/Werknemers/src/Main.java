@@ -2,6 +2,8 @@ import be.gilles.Werknemer;
 import be.gilles.type.Arbeider;
 import be.gilles.type.Bediende;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,10 +14,7 @@ public class Main {
                 new Bediende("Erik", 54110774131L, 1.6)
         };
 
-        for(Werknemer x : werknemers) {
-
-            System.out.println(x);
-        }
+        Arrays.stream(werknemers).forEach(System.out::println);
 
     }
 

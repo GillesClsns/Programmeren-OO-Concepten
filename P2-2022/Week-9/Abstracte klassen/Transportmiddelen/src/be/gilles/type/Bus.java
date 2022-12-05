@@ -8,13 +8,16 @@ public class Bus extends Transportmiddel {
     public Bus(double snelheid) {
 
         super(snelheid);
-        setGeluid("vroem");
 
+    }
+
+    public String getGeluid() {
+        return "vroem";
     }
 
     @Override
     public String toString() {
-        return getGeluid();
+        return super.toString();
     }
 
 }

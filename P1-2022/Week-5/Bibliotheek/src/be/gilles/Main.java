@@ -1,14 +1,17 @@
 package be.gilles;
 
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Boek boek1 = new Boek("Y. Daniel Liang", "Introduction to Java Programming", 1204, false);
-        Boek boek2 = new Boek("Louis Paul Boon", "De Kapellekensbaan", 291, true);
-        Boek boek3 = new Boek("Jef Geeraerts", "Drugs", 333, false);
+        List<Boek> boeken = List.of(
+                new Boek("Y. Daniel Liang", "Introduction to Java Programming", 1204, false),
+                new Boek("Louis Paul Boon", "De Kapellekensbaan", 291, true),
+                new Boek("Jef Geeraerts", "Drugs", 333, false));
 
-        System.out.println(boek1 + "" + boek2 + "" + boek3);
+        boeken.forEach(System.out::println);
 
     }
 

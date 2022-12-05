@@ -4,6 +4,7 @@ public abstract class Transportmiddel {
 
     private final double snelheid;
     private String geluid;
+    int amount;
 
     public Transportmiddel(double snelheid) {
 
@@ -15,10 +16,6 @@ public abstract class Transportmiddel {
         return geluid;
     }
 
-    public void setGeluid(String geluid) {
-        this.geluid = geluid;
-    }
-
     public double getSnelheid() {
         return snelheid;
     }
@@ -26,18 +23,18 @@ public abstract class Transportmiddel {
     public void legAfstandAf(double afstand) {
 
         int i = (int) ((afstand * 10) / getSnelheid());
-
+        amount = i;
         for (int j = 0; j < i; j++) {
 
             System.out.print(getGeluid());
 
         }
 
-
     }
 
     public String toString() {
-        return "%s-";
+
+        return getGeluid();
     }
 
 }

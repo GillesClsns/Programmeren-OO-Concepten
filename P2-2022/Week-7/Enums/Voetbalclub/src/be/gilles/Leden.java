@@ -35,11 +35,11 @@ public class Leden {
         return actieveLeden;
     }
 
-    public Soort getSoort() {
+    public Soort getSoort() { // Not used
         return soort;
     }
 
-    public void printActieveLeden() {
+    public void printActieveLeden() { // Not used
 
         for(Lid x : leden) {
             System.out.println(getAantalActieveLeden());

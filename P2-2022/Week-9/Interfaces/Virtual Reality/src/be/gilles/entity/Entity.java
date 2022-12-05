@@ -1,7 +1,9 @@
+package be.gilles.entity;
+
 public abstract class Entity {
 
     private final String naam;
-    private double[] position = new double[3];
+    protected final double[] position;
 
     public Entity(String naam, double[] position) {
 
@@ -23,4 +25,5 @@ public abstract class Entity {
         return String.format("%s (%.1f, %.1f, %.1f)",
                 getNaam(), getPosition()[0], getPosition()[1], getPosition()[2]);
     }
+
 }

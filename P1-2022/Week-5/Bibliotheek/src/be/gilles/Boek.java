@@ -27,7 +27,7 @@ public class Boek {
 
     @Override
     public String toString() {
-        return String.format("Het boek %s (%d pagina's), geschreven door %s is momenteel %s ontleend.\n", titel.toUpperCase(), paginas, auteur.toUpperCase(), this.isOntleend());
+        return String.format("Het boek %s (%d pagina's), geschreven door %s is momenteel %s ontleend.", titel.toUpperCase(), paginas, auteur.toUpperCase(), this.isOntleend());
     }
 
 }

@@ -15,7 +15,7 @@ public class SettingsMenu extends Menu {
                 ==============
                 Wat wil je aanpassen?
                 (1) Room settings
-                (2) Entity settings
+                (2) be.gilles.entity.Entity settings
                 (3) Advanced settings
                 (4) Back to main menu
                 Uw keuze:\s""");
